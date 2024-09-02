@@ -8,7 +8,9 @@ class Solution:
 
         if(l==1):
             return 0
-            
+        if(chalk[0]>k):
+            return 0
+
         for j in range(0,l):
             sum=sum+chalk[j]
         while(s1<k):
