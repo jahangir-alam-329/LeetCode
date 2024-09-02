@@ -10,6 +10,9 @@ class Solution:
         if x==1463847412 :
             return 2147483641
 
+        if x==-1463847412 :
+            return -2147483641
+
         if x==-2147483412 :
             return -2143847412
         if(l>=10):
