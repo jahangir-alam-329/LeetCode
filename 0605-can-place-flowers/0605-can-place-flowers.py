@@ -18,7 +18,7 @@ class Solution:
         if(flowerbed[l-1]==0 and flowerbed[l-2]==0):
             flowerbed[l-1]=1
             t=t-1
-        if t==0:
+        if t<=0:
             return True
         else:
             return False
